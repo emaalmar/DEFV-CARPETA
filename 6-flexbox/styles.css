@@ -46,4 +46,17 @@ h1 {
   background-color: lavender;
   border: #030303 solid 1px;
   flex-basis: 100%;
+  
 }
+
+.grap {
+font-display:flex;
+margin-bottom: 129px;
+margin-inline-start: 422px;
+width: 250px;
+}
+
+/* .bottom {
+display: flex;
+margin-bottom: 5px;
+} */
