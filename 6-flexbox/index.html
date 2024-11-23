@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
-  <title>Document</title>
-</head>
+  <body>
+    <nav>
+      <a href="#" id="logo">
+        <img src="./img/logo.png" alt="Empresa de Amy" />
+      </a>
 
-<body>
-  <nav>
-    <a href="#" id="logo">
-      <img src="./img/logo.png" alt="Empresa de Amy">
-    </a>
-
-    <a href="#" id="call-to-action">Free Consultation</a>s
-  </nav>
-  <section id="hero">
-    <div class="text-content">
-      <h1>Design solutions made easy</h1>
-      <p>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
-      </p>
-    </div>
+      <a href="#" id="call-to-action">Free Consultation</a>s
+    </nav>
     
-    <div class="image-container">
-      <a href="#">
-        <img class="grap" src="./img/illustration-graphic-design.png" alt="Graphic Design Illustration">
-        <h2 class="bottom">Graphic Design</h2>
-      </a>
+    <section id="hero">
+      <div class="text-content">
+        <h1>Design solutions made easy</h1>
+        <p>
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+      </div>
 
-      <a href="#">
-        <h2>Illustrations</h2>
-      </a>
-      <a href="#">
-        <h2>Photography</h2>
-      </a>
-    </div>
-  </section>
-</body>
+      <div class="image-container">
 
+        <a href="#">
+          <div class="card" id="color-1">
+            <img class="grap" src="./img/illustration-graphic-design.png" alt="Graphic Design" />
+            <h2 class="bottom">Graphic Design</h2>
+          </div>
+        </a>
+      
+        <a href="#" >
+          <div class="card" id="color-2">
+            <img class="grap-2" src="./img/illustration-illustrations.png" alt="Illustrations Design" />
+            <h2 class="bottom-2">Illustrations</h2>
+          </div>
+        </a>
+      
+        <a href="#">
+          <div class="card" id="color-3">
+            <img class="grap-3" src="./img/illustration-photography.png" alt="Photography" />
+            <h2 class="bottom-3">Photography</h2>
+          </div>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
