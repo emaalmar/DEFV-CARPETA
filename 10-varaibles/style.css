@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* mamá: 55-55-55-55 */
+
+    --clr-violet: #ad1fea;
+    --clor-blue: #4661e6;
+    --clr-dark-blue: #373f68;
+    --clr-white: #fff;
+    --clr-ligth-blue: hsl(231, 100%, 97%);
+
+    --clr-ligth-blue-h: 231;
+    --clr-ligth-blue-s: 100%;
+    --clr-ligth-blue-l: 97%;
+
+    --clr-grey: #647196;
+    --clr-orange: #f49f85;
+    --clr-brigth-blue: #62bcfa;
+
+    --ff-body: "Jost", sans-serif;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.5rem;
+
+    --fw-h1: 900;
+
+    --br-md: 6px;
+
+    --br-md: 6px
+}
+
+body {
+    background-color: var(--clr-ligth-blue);
+    font-family: var(--ff-body);
+}
+
+.article-orange {
+    --clr-accent: var(--clr-orange, black);
+
+}
+
+.article-violet {
+    --clr-accent: var(--clr-violet);
+
+}
+
+.article-blue {
+    --clr-accent: var(--clr-brigth-blue);
+
+}
+
+article {
+    max-width: 350px;
+    color: var(--clr-dark-blue);
+    border-top: solid 6px var(--clr-accent);
+    padding: 32px;
+    background-color: var(--clr-white);
+    border-radius: var(--br-md);
+    /* background-image: linear-gradient(180deg, var(--clr-violet) 0%, var(--clr-orange) 35%, rgb(176, 210, 216) 100%); */
+}
+
+.primary-tag {
+    color: var(--clr-grey);
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.dot {
+    display: block;
+    width: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--clr-accent);
+}
+
+.secondary-tag {
+    color: var(--clor-blue);
+    background-color: hsl(231, 100%, 97%);
+    background-color: 
+        hsl(
+            var(--clr-ligth-blue-h),
+            var(--clr-ligth-blue-s),
+            var(--clr-ligth-blue-l)
+            );
+    width: fit-content;
+    padding: 6px 16px;
+    border-radius: 6px;
+}
+
+.secondary-tag:hover {
+    background-color:
+        hsl(var(--clr-ligth-blue-h),
+            var(--clr-ligth-blue-s),
+            calc (var(--clr-ligth-blue-l) *.5));
+}
