@@ -1,0 +1,202 @@
+
+  
+  /* CSS: Estilo Básico de la Navbar */
+  
+  /* .navbar {
+
+    background-color: #333; Un fondo oscuro
+  
+    overflow: hidden; Para asegurarnos de que no haya desbordamientos
+  
+    display: flex; Alinea los elementos en una fila
+  
+    justify-content: space-around; Espacia uniformemente los elementos
+  
+    padding: 1em;
+  
+  }
+  
+  .navbar a {
+  
+    color: white; Enlaces en blanco para que resalten
+  
+    text-decoration: none; Quitar el subrayado
+  
+    padding: 0.5em 1em; Espacio alrededor de los enlaces
+  
+  }
+  
+  .navbar a:hover {
+  
+    background-color: #575757; Efecto hover para resaltar los enlaces
+  
+    transition: 0.3s; Suavizar la transición del hover
+  
+  }
+     */
+     /* CSS: Navbar Distribuida */
+
+.navbar {
+
+    display: flex;
+  
+    justify-content: space-between; /* Elementos en los extremos con espacio entre ellos */
+  
+    align-items: center; /* Alinear los elementos verticalmente */
+  
+    padding: 10px 20px;
+  
+    background-color: #333;
+  
+    color: white;
+  
+  }
+  
+  .nav-links {
+  
+    display: flex;
+  
+    gap: 15px; /* Espacio entre los enlaces */
+  
+  }
+  
+  .login-button {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    border: none;
+  
+    padding: 10px 15px;
+  
+    cursor: pointer;
+  
+  }
+
+  /* CSS: Footer de Cookies */
+
+.cookie-footer {
+
+  position: fixed; /* Siempre visible al final de la pantalla */
+
+  bottom: 0; /* Pegado a la parte inferior */
+
+  left: 0;
+
+  right: 0;
+
+  background-color: #222; /* Fondo oscuro para que destaque */
+
+  color: #fff; /* Texto en blanco para buen contraste */
+
+  padding: 1em;
+
+  display: flex; /* Organiza el contenido de manera horizontal */
+
+  justify-content: space-between; /* Espacia el texto y el botón */
+
+  align-items: center;
+
+}
+
+.cookie-footer button {
+
+  background-color: #4caf50; /* Verde para el botón */
+
+  color: white;
+
+  border: none;
+
+  padding: 0.5em 1em;
+
+  cursor: pointer;
+
+}
+
+.cookie-footer button:hover {
+
+  background-color: #45a049; /* Efecto al pasar el ratón sobre el botón */
+
+}
+
+/* CSS: Alineación Compleja de la Card */
+
+/* .container {
+
+    display: flex;
+  
+    justify-content: center; Centrar horizontalmente
+  
+    align-items: center; Centrar verticalmente
+  
+    height: 100vh; Hacer que ocupe toda la altura de la pantalla
+  
+    background-color: #f4f4f4;
+  
+  }
+  
+  .card {
+  
+    background-color: white;
+  
+    padding: 20px;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    border-radius: 8px;
+  
+    text-align: center;
+  
+  } */
+
+
+  /* CSS: Card Horizontal con Flexbox */
+
+.card-horizontal {
+
+    display: flex;
+  
+    align-items: center; /* Alinear elementos verticalmente */
+  
+    gap: 20px; /* Espacio entre la imagen y la descripción */
+  
+    padding: 20px;
+  
+    border: 1px solid #ddd;
+  
+    border-radius: 8px;
+  
+    margin-bottom: 20px;
+  
+  }
+  
+  .card-image {
+  
+    width: 150px;
+  
+    height: auto;
+  
+    border-radius: 8px;
+  
+  }
+  
+  .card-description {
+  
+    flex: 1; /* Hacer que la descripción ocupe el espacio disponible */
+  
+  }
+  
+  /* Diseño adaptable */
+  
+  @media (max-width: 600px) {
+  
+    .card-horizontal {
+  
+      flex-direction: column; /* Apila la imagen y la descripción en pantallas pequeñas */
+  
+      align-items: flex-start; /* Alinear a la izquierda en modo columna */
+  
+    }
+  
+  }

@@ -1,0 +1,285 @@
+/* Encabezado adhesivo */
+
+.sticky-header {
+
+  position: sticky;
+
+  top: 0;
+
+  background-color: #007BFF;
+
+  color: white;
+
+  padding: 10px;
+
+  text-align: center;
+
+  z-index: 1000;
+
+}
+
+/* Botón de contacto fijo */
+
+.fixed-contact {
+
+  position: fixed;
+
+  bottom: 20px;
+
+  right: 20px;
+
+  background-color: #28a745;
+
+  color: white;
+
+  padding: 15px;
+
+  border-radius: 5px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  cursor: pointer;
+
+  font-size: 16px;
+
+}
+
+/* Estilos adicionales */
+
+body {
+
+  font-family: Arial, sans-serif;
+
+}
+
+.content {
+
+  padding: 20px;
+
+}
+
+
+/* .flex-container {
+
+    display: flex; 
+  
+    justify-content: center; 
+  
+    align-items: center; 
+  
+    height: 300px; 
+  
+    background-color: #f4f4f4;
+  
+    border: 1px solid #ccc;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    border-radius: 5px;
+  
+    text-align: center;
+  
+  } */
+
+/* .flex-container { */
+
+/* display: flex; */
+
+/* justify-content: center; Alinear todos los elementos en el centro horizontalmente */
+
+/* align-items: center; Alinear todos los elementos en el centro verticalmente */
+
+/* height: 300px; */
+
+/* background-color: #f4f4f4; */
+
+/* }  */
+
+/* .item { */
+
+/* background-color: #007BFF; */
+
+/* color: white; */
+
+/* padding: 20px; */
+
+/* margin: 10px; Espacio entre los elementos */
+
+/* border-radius: 5px; */
+
+/* } */
+/* 
+  .flex-container {
+
+    display: flex;
+   */
+/* justify-content: center; /* Centra todos los elementos horizontalmente */
+
+/*align-items: center; /* Centra todos los elementos verticalmente */
+/*   
+    height: 300px;
+  
+    background-color: #f4f4f4;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    margin: 10px;
+  
+    border-radius: 5px;
+  
+  }
+  
+  .special-item { */
+
+/*align-self: flex-end; /* Este elemento se alinea al final vertical del contenedor */
+
+/* } */
+
+/* .flex-container {
+
+    display: flex;
+  
+    flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias líneas */
+
+/*   align-content: flex-start; /* Alinea las líneas al inicio del contenedor */
+/*   
+    height: 400px;
+  
+    background-color: #c61515;
+  
+    gap: 10px;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    width: 100px;
+  
+    text-align: center;
+  
+    border-radius: 5px;
+  
+  } */
+
+/* .flex-container {
+
+    /*display: flex; */
+
+/*flex-wrap: wrap; /* Permitir que los elementos se distribuyan en varias líneas */
+
+/*gap: 10px; /* Espacio entre elementos */
+/*   
+    background-color: #f4f4f4;
+  
+    padding: 20px;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+    border-radius: 5px; */
+
+/* width: 150px; /* Definir un ancho fijo para cada elemento */
+
+/* }*/
+
+/* .flex-container {
+
+  display: flex; */
+
+/*  flex-wrap: wrap; /* Distribuir elementos en múltiples líneas */
+
+/*align-content: flex-start; /* Alinear las líneas al inicio del contenedor */
+
+/*  height: 400px; /* Definir una altura para observar la alineación de las líneas */
+/* 
+  gap: 15px;
+
+  background-color: #f4f4f4;
+
+}
+
+.item {
+
+  background-color: #007BFF;
+
+  color: white;
+
+  padding: 20px;
+
+  width: 150px; /* Ancho fijo */
+
+/*text-align: center;
+
+border-radius: 5px;
+
+}
+
+*/
+/* Alineación Completa: Ejemplo Combinado */
+
+.flex-container {
+
+  display: flex;
+
+  flex-wrap: wrap; /* Permitir que los elementos se distribuyan en múltiples líneas */
+
+  justify-content: center; /* Centrar los elementos horizontalmente */
+
+  align-items: center; /* Alinear los elementos verticalmente dentro de sus propias líneas */
+
+  align-content: stretch; /* Alinear las líneas completas en el centro del contenedor */
+
+  height: 500px; /* Definir una altura para observar el efecto */
+
+  gap: 15px;
+
+  background-color: #f4f4f4;
+
+}
+
+.item {
+
+  background-color: #007BFF;
+
+  color: white;
+
+  padding: 20px;
+
+  width: 100px;
+
+  text-align: center;
+
+  border-radius: 5px;
+
+}

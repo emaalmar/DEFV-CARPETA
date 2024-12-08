@@ -1,0 +1,140 @@
+/* .flex-container {
+
+    display: flex;
+  
+    align-items: flex-start; Alinear los elementos al inicio en el eje cruzado
+  
+    height: 200px; Definir una altura para el contenedor
+  
+    gap: 10px; Espacio entre elementos
+  
+    background-color: #f4f4f4;
+  
+    padding: 10px;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+    border-radius: 5px;
+  
+  }
+  
+  .special-item {
+  
+    align-self: flex-end; Este elemento se alinea al final en el eje cruzado
+  
+  } */
+
+  /* 2. Distribuir elementos con un espacio específico entre ellos (space-between, space-around, space-evenly) */
+
+
+  /* .flex-container {
+
+    display: flex;
+  
+    justify-content: space-between; Máximo espacio posible entre los elementos
+  
+    align-items: center; Alinear los elementos verticalmente en el centro
+  
+    height: 150px;
+  
+    background-color: #f4f4f4;
+  
+    padding: 20px;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    border-radius: 5px;
+  
+    text-align: center;
+  
+  } */
+
+  /* 3. Centrar un elemento en un contenedor de tamaño variable  */
+
+  /* .flex-container {
+
+    display: flex;
+  
+    justify-content: center; Centra horizontalmente
+  
+    align-items: center; Centra verticalmente
+  
+    height: 400px; Tamaño del contenedor
+  
+    background-color: #f4f4f4;
+  
+    border: 2px dashed #ccc;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 30px;
+  
+    border-radius: 5px;
+  
+    text-align: center;
+  
+  } */
+
+  /* .flex-container {
+
+    display: flex;
+  
+    justify-content: space-around; Espacio uniforme alrededor de los elementos
+  
+    align-items: center; Alinear verticalmente
+  
+    height: 200px;
+  
+    background-color: #f4f4f4;
+  
+    padding: 20px;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+    border-radius: 5px;
+  
+    width: 100px; Tamaño base
+  
+  }
+  
+  .large-item {
+  
+    flex-grow: 2; Este elemento crecerá más que los demás
+  
+    width: 150px; Tamaño base más grande para diferenciarlo
+  
+  } */
