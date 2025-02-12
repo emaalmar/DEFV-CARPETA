@@ -22,6 +22,6 @@
 
 for (let i = 1; i <= 10; i++) {
     if (i % 2 === 0) {
-        continue;}
+        continue;} //continue nos ayuda a saltarnos una iteracion
     console.log(i);
 }
