@@ -1,3 +1,4 @@
+/*
 //Ejemplo 1: Contador simple con while
 
 let contador = 10;
@@ -18,10 +19,12 @@ while(cuentaRegresiva > 0){
 
 //Ejemplo #: Solcitar confirmación hasta que el usuario acepte
 
-let confirmacion = true;
+let confirmacion = true; //Confirmaciones de true o false las solemos conocer tambien como banderas o flags
 
 while (confirmacion) {
     // otras tareas dentro del ciclo
     confirmacion = confirm("Quieres realizar otra operación"); //confirm devuelve true o false
     console.log("confirmación recibida", confirmacion);
 }
+*/
+
