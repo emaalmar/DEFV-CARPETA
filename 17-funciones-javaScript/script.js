@@ -8,8 +8,7 @@
 //Sintaxis básica de una función
 //Paso 1. La definición de la función
 function saludar() {
-    console.log("Hola mundo!");   
-}
+    console.log("Hola mundo!");
 
 //Paso 2. LLamar a la función, o la estamos ejecutando
 saludar()
