@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Metadatos: Información de la pagina que generalmente auxilia
+    a los motores de busqueda -->
+    <title>Gestión de productos</title>
+</head>
+<body>
+    <header>
+    <h1>Gestión de Productos</h1>
+    </header>
+    <main>
+        <!-- Formularios de productos -->
+        <section aria-labelledby="formulario-productos">
+            <h2 id="formlario-productos"> Formulario de productos</h2>
+            <form id="producto-form">
+                <label for="nombre"> Nombre del producto</label>
+                <input type="text" id="nombre" required>
+
+                <label for="precio"> Precio</label>
+                <input type="number" id="precio" required min = "1">
+
+                <label for="categoria">Categoria</label>
+                <select id="categoria">
+                    <option value="Electronia">Electronica</option>
+                    <option value="Accesorios">Accesorios</option>
+                    <option value="Ropa"> Ropa</option>
+                </select>
+
+                <label for="Descuento">Descuento</label>
+                <input type="number" id="descuento" value="0" min="0" max="99">
+
+                <button type="submit">Agregar Producto</button>
+            </form>
+        </section>
+        <!-- Lista de productos -->
+         <section aria-labelledby="lista-titulo">
+            <h2 id="lista-titulo">Lista de productos</h2>
+            <ul id="lista-productos"></ul>
+         </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gestión de Productos</p>
+    </footer>
+    <script src="./script-po.js"></script>
+
+</body>
+</html>
