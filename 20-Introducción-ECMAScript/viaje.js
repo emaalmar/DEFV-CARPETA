@@ -25,6 +25,22 @@ class Viaje {
     }
 }
 
+class ViajeInternacional extends Viaje {
+    constructor(destino, origen, duracion, pais){
+        super(destino, origen, duracion); // Llama al constructor de la clase padre (Viaje)
+        this.pais = pais;
+    }
+
+    mostrarInfo(){
+        console.log(`destino: ${this.destino};\npais: ${this.pais}`)
+    }
+}
+
+const viajeInternacional1 = new ViajeInternacional("Cairo", "CDMX", 900, "Egipto")
+
+viajeInternacional1.getCost();
+viajeInternacional1.getInfo();
+viajeInternacional1.mostrarInfo();
 
 const viaje1 = new Viaje("Guadalajara", "CDMX", "60")
 const viaje2 = new Viaje("CDMX", "Guadalajara", "65")
@@ -32,9 +48,9 @@ const viaje2 = new Viaje("CDMX", "Guadalajara", "65")
 // console.log({viaje1});
 // console.log({viaje2});
 
-viaje1.getCost()
-viaje1.getInfo()
+// viaje1.getCost()
+// viaje1.getInfo()
 
-Viaje.mensajeBienvenida()
+// Viaje.mensajeBienvenida()
 
 
