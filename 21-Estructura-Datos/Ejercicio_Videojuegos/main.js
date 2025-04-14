@@ -40,13 +40,13 @@ function agregarJuego() {
 }
 
 function filtrarPorGenero() {
-    // 🚀 Completar: Filtrar los videojuegos por género ingresado.
-    const filtrarPorGenero = document.getElementById("filtro").value.trim();
+    const generoFiltro = document.getElementById("filtro").value.trim().toLowerCase();
 
+    const filtrados = juegos.filter(juego =>
+        juego.genero.toLowerCase().includes(generoFiltro)
+    );
 
-    const filtrados = juegos.filter((juego) => juego.genero.toLowerCase().includes(filtrarPorGenero.toLowerCase()));
-
-    actualizarLista(filtrados);
+    actualizarJuegos(filtrados);
 }
 
 function calcularTotal() {
