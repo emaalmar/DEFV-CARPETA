@@ -27,7 +27,7 @@ function agregarProducto() {
 
     // Agrega el producto al array
     productos.push(nombreProducto);
-    
+
     // Actualiza la lista en el DOM
     actualizarLista();
 
@@ -113,20 +113,20 @@ function actualizarLista() {
     productos.forEach((producto, index) => {
         const li = document.createElement("li"); // Crea un nuevo elemento de lista
         li.classList.add("fade-in"); // Agrega animación de entrada
-        
+
         // Crea el texto con el número de posición y el nombre del producto
         const texto = document.createTextNode(`${index}. ${producto} `);
         li.appendChild(texto);
-        
+
         // Crea el botón de eliminar
         const btnEliminar = document.createElement("button");
         btnEliminar.textContent = "Eliminar"; // Texto del botón
         btnEliminar.classList.add("delete"); // Agrega una clase CSS
         btnEliminar.onclick = () => eliminarProducto(producto); // Asigna la función eliminarProducto al botón
-        
+
         li.appendChild(btnEliminar); // Agrega el botón al elemento <li>
         lista.appendChild(li); // Agrega el <li> al <ul>
-        
+
         // Breve animación de entrada
         setTimeout(() => li.classList.remove("fade-in"), 100);
     });
