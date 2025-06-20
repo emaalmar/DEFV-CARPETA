@@ -1,0 +1,10 @@
+[
+    {
+        "nombre": "Viaje Familia",
+        "origen": "CDMX",
+        "destino": "Guadalajara",
+        "duracion": 14,
+        "pais": "México",
+        "tareas": []
+    }
+]
